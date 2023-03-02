@@ -1,0 +1,116 @@
+{
+    "mens_shoes": [
+    {
+        "shoeId": "1",
+        "name": "Men's Prague",
+        "price": "$109.00",
+        "description": "This shoe has the timeless style you want and the durability you require (really, it works with everything). The Prague is made of premium canvas with hints of real suede leather (no fakes here! ), plus it has Rabbit Foam® outsoles, so it is, indeed, comfortable.",
+        "url": "./images/men_kizik.jpg"
+    },
+    {
+        "shoeId": "2",
+        "name": "Men's Nike Air Max Excee Sneakers",
+        "price": "$90.00",
+        "description": "The Nike Air Max Excee celebrates a vintage throwback favorite with a new, modern perspective. It will be difficult not to fall in love with these Nike Air Max 90-inspired sneakers the moment you lace them up because they are made with a sturdy yet breathable upper, a supportive and fashionable visible Air midsole, and an extremely soft cushioned insole. However, there's still more! Because of the Air Max Excee's extremely versatile design, you can quickly transition from the court to playing with the kids while wearing dad shorts.",
+        "url": "./images/men_nike.jpg"
+    },
+    {
+        "shoeId": "3",
+        "name": "Men's Reebok Club C 85 Vintage Sneaker",
+        "price": "$85.00",
+        "description": "Reebok's Club C 85 Vintage shoe will bring back those vintage feelings. This tennis sneaker has a perforated leather upper and a die-cut EVA midsole for lightweight cushioning and all-day support.",
+        "url": "./images/men_reebok.jpg"
+    },
+    {
+        "shoeId": "4",
+        "name": "Men's Nike Court Vision Next Nature Mid Sustainable Sneakers",
+        "price": "$85.00",
+        "description": "As part of Nike's Move to Zero initiative, this product is constructed from environmentally friendly components. Fabric interior and padded collar on a synthetic leather upper. Lace-up clasp for a personalized fit on a mid-top style. Insole with cloth lining and minimal cushioningrubber sidewalls that are tough and a traction base.",
+        "url": "./images/men_court.jpg"
+    },
+    {
+        "shoeId": "5",
+        "name": "Men's Cloudswift",
+        "price": "$150.00",
+        "description": "With the On® Cloudswift running shoe, you can improve your flexibility, stability, and agility and add some extra power to each run.",
+        "url": "./images/men_cloudswift.jpg"
+    },
+    {
+        "shoeId": "6",
+        "name": "Men's Nike Air Max 270 Shoes",
+        "price": "$170.00",
+        "description": "The Nike Air Max 270 improves your appearance and provides cushioned comfort with each step you take because it is made with the first Max Air unit ever developed for Nike Sportswear. While being redesigned to provide contemporary comfort, these shoes retain design cues from the original Air Max 180 from 1991 and the Air Max 93 from 1993, giving them a current appearance with a nod to the past.",
+        "url": "./images/men_airmax.jpg"
+    }
+    ],
+
+    "womens_shoes": [
+        {
+            "shoeId": "1",
+            "name": "Women's Nike Air Max Excee Sneakers",
+            "price": "$90.00",
+            "description": "Nike's Air Max Exceed Sneakers combine timeless design with maximum comfort! The Air Max Excee is the ideal companion for doing errands around town, walking the dog, or going for a run at the park.",
+            "url": "./images/women_airmax.jpg"
+        },
+        {
+            "shoeId": "2",
+            "name": "Women's Hoka Clifton 8",
+            "price": "$112.00",
+            "description": "The Clifton 8, the most recent model in the prestigious Clifton line, keeps delivering the ideal balance of soft and light. The Clifton 8 is designed with the same riding characteristics with a lighter, more responsive midsole. It also has a redesigned engineered mesh top.",
+            "url": "./images/women_hoka.jpg"
+        },
+        {
+            "shoeId": "3",
+            "name": "Women's Nike Court Vision Low Sneakers",
+            "price": "$75.00",
+            "description": "With the Nike Court Vision Low Sneakers, you can enjoy both comfort and style. These stylish sneakers are ideal for everyday wear and work with any style or outfit! The Court Vision Low will always get you through the day with ease and style because of its slick and robust build.",
+            "url": "./images/women_court.jpg"
+        },
+        {
+            "shoeId": "4",
+            "name": "Women's Nordstrom Leia Platform Sneaker",
+            "price": "$45.00",
+            "description": "With this faux leather sneaker's gently padded footbed and platform grip sole, you can enjoy all-day comfort.",
+            "url": "./images/women_sneaker.jpg"
+        },
+        {
+            "shoeId": "5",
+            "name": "Women's Monterey Platform",
+            "price": "$40.00",
+            "description": "Unique, stylish, and elevated With this amazingly light and comfortable base, boost your shoe game to new heights. We are able to help a nonprofit that works to safeguard monarch butterflies because to your choice of shoes.",
+            "url": "./images/women_platform.jpg"
+        },
+        {
+            "shoeId": "6",
+            "name": "Women's Lugz Lear Sneaker",
+            "price": "$27.00",
+            "description": "Searching for a pair of modern, low-profile sneakers? The Women's Lear, your new favorite fashion-forward canvas shoe, has you covered.",
+            "url": "./images/women_lear.jpg"
+        }
+    ],
+
+    "homepage": [
+        {
+            "homeId": "1",
+            "name": "Created by SE/COMS 319 Students:",
+            "ourNames": "Sonali Malhotra and Finn Mooney",
+            "description": "Welcome to the website of shoes! Browse from multiple options of shoes for:",
+            "url": "./images/homepage_shoe.jpg"
+        },
+        {
+            "homeId": "2",
+            "name": "Men:",
+            "ourNames": "Shop from various pairs of shoes",
+            "description": "All unique styles and colors",
+            "url": "./images/men_shoes.jpg"
+        },
+        {
+            "homeId": "3",
+            "name": "Women:",
+            "ourNames": "Shop from various pairs of shoes",
+            "description": "All comfortable yet chic",
+            "url": "./images/women_shoes.jpg"
+        }
+
+    ]
+}
