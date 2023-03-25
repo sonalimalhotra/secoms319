@@ -1,184 +1,70 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.108.0">
-    <title>Catalog of Shoes</title>
+    <title>Website of Shoes</title>
+    <!-- bootstrap links -->
     <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/album/"> 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
-<!-- to get navbar go to bootstrap > docs > components > navbar -->
-<!-- assignment 1 is like this but with (1) another page and (2) navbar -->
-
+    <!-- CSS code -->
     <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
+  
+        h1 {
+          text-align: center;
+          margin-top: 50px;
+          font-size: 75px;
         }
-      }
 
-      .b-example-divider {
-        height: 3rem;
-        background-color: rgba(0, 0, 0, .1);
-        border: solid rgba(0, 0, 0, .15);
-        border-width: 1px 0;
-        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
-      }
-
-      .b-example-vr {
-        flex-shrink: 0;
-        width: 1.5rem;
-        height: 100vh;
-      }
-
-      .bi {
-        vertical-align: -.125em;
-        fill: currentColor;
-      }
-
-      .nav-scroller {
-        position: relative;
-        z-index: 2;
-        height: 2.75rem;
-        overflow-y: hidden;
-      }
-
-      .nav-scroller .nav {
-        display: flex;
-        flex-wrap: nowrap;
-        padding-bottom: 1rem;
-        margin-top: -1px;
-        overflow-x: auto;
-        text-align: center;
-        white-space: nowrap;
-        -webkit-overflow-scrolling: touch;
-      }
-
-      h1 {
-        text-align: center;
-      }
-    </style>
-  </head>
-  <body>
-<header>
-  <div class="collapse bg-dark" id="navbarHeader">
-    <div class="container">
-        <div class="col-sm-4 offset-md-1 py-4">
-          <h4 class="text-white">Additional Pages</h4>
-          <ul class="list-unstyled">
-            <li><a href="flowers.html" class="text-white">Catalog of Flowers</a></li>
-            <li><a href="credits.html" class="text-white">Credits Page</a></li>
-          </ul>
+        #wrapper {
+          background-color: white;
+          margin-left: auto;
+          margin-right: auto;
+          width: 80%;
+          min-width: 900px;
+          max-width: 1280px;
+        }
+      </style>
+</head>
+<body id="wrapper">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+            <a class="nav-link" href="./mens_shoes.html">Men's Shoes</a>
+            <a class="nav-link" href="./womens_shoes.html">Women's Shoes</a>
+            <a class="nav-link" href="./credits.html">Credits Page</a>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
-  <div class="navbar navbar-dark bg-dark shadow-sm">
-    <div class="container">
-      
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    </div>
-  </div>
-</header>
+    </nav>
 
-<main>
-  <section>
-    <!-- header -->
-    <h1>Catalog of Shoes</h1>
-  </section>
+    <h1>Website of Shoes</h1>
 
-  <div class="album py-5 bg-light">
-    <div class="container">
+    <div id="catalog"></div>
+    <script src="./index.js"></script>
 
-        <!-- first row -->
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-        <div class="col">
-          <div class="card shadow-sm">
-            <img src="./images/superstar.jpg" alt="Adidas Originals Women's Superstar Shoes">
-            <div class="card-body">
-              <p class="card-text">In 1970, the adidas Superstar shoes made their debut on the hardwood court for basketball. They quickly transitioned from athletic clothing to a mainstay of streetwear. These shoes exhibit the components, proportions, and design that helped establish the original as a legend. Smooth leather covers the uppers, which also include a heel tab and athletic 3-Stripes. They are completed with the renowned rubber shell toe.</p>
-              <div class="d-flex justify-content-between align-items-center">
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card shadow-sm">
-            <img src="./images/vans.jpg" alt="Vans Mens Old Skool Skate Shoes">
-            <div class="card-body">
-              <p class="card-text">Of the most recognizable patterns in a store full of them. The Old Skool evolved from the Vans #36, which debuted the now-iconic Vans Sidestripe in 1977. Vans Old Skool Black & White is more evidence that the Classics never go out of style. The Vans Old Skool Black & White sneaker has endured the test of time thanks to the union of sturdy suede and canvas, and founder Paul Van Doren's efforts guarantee its continued popularity. With reinforced toe caps, supportive cushioned colorways, and recognizable rubber waffle outsoles for optimal comfort and convenience, Vans Old Skool Black & White represents Vans at its best.</p>
-              <div class="d-flex justify-content-between align-items-center">
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card shadow-sm">
-            <img src="./images/nike.jpg" alt="Nike ZoomX Streakfly Total Orange">
-            <div class="card-body">
-              <p class="card-text">The Nike Streakfly, the lightest racing shoe, is all about the speed you need to beat the opposition in a mile, 5k, or 10k event. To help you better connect with the road as you work toward your personal best, this shoe's low profile and elegant accents provide the impression that it vanishes on your foot.</p>
-              <div class="d-flex justify-content-between align-items-center">
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- second row -->
-        <div class="col">
-          <div class="card shadow-sm">
-            <img src="./images/converse.jpg" alt="Chuck Taylor All Star Lift Platform Canvas High Top Shoe">
-            <div class="card-body">
-              <p class="card-text">These platform Chucks are sure to draw attention because they were inspired by the classic styles of '90s girl bands. A double-stacked sole lifts you higher, and canvas can be as elegant or edgy as you choose.</p>
-              <div class="d-flex justify-content-between align-items-center">
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card shadow-sm">
-            <img src="./images/jordan.jpg" alt="Air Jordan 1 Hi FlyEase Shoes">
-            <div class="card-body">
-              <p class="card-text">The iconic look of Michael Jordan's first signature shoe is combined with a simple, one-handed entry technique in the Air Jordan 1 Hi FlyEase. Just a wraparound zipper and two straps are used to create a specific fit; there are no laces to tie.</p>
-              <div class="d-flex justify-content-between align-items-center">
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card shadow-sm">
-            <img src="./images/adidas.jpg" alt="Adidas The Total Weightlifting Shoes Black/White/Grey">
-            <div class="card-body">
-              <p class="card-text">Gym culture-related. Perfect for deadlifts. These adidas The Total weightlifting shoes help produce the ideal low-to-the-ground stance desired by many deadlifters thanks to their zero heel raise. You can also find a steady posture with the wide toe box's assistance. The sturdy textile upper, which features gym-inspired design elements, uses a strap and laces to keep you securely fastened in. This top contains at least 50% recycled material and was made with a variety of recycled materials. This item is just one of the ways we're trying to reduce plastic waste.</p>
-              <div class="d-flex justify-content-between align-items-center">
-              </div>
-            </div>
-          </div>
-        </div>
-</main>
-
-<!-- footer -->
-<footer class="text-muted py-5">
-  <div class="container">
-    <p class="float-end mb-1">
-      <a href="#">Back to top</a>
-    </p>
-    <p class="mb-1">Website Credits: Sonali Malhotra and Finn Mooney, students of COMS 319</p>
-  </div>
-</footer>
-    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script> 
   </body>
+  <!-- footer -->
+  <footer class="text-muted py-5">
+    <div class="container">
+      <p class="float-end mb-1">
+        <a href="#">Back to top</a>
+      </p>
+      <p class="mb-1">Website Credits: Sonali Malhotra and Finn Mooney, students of SE/COMS 319</p>
+    </div>
+  </footer>
+      <script src="../assets/dist/js/bootstrap.bundle.min.js"></script> 
+    </body>
+</body>
 </html>
